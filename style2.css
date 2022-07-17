@@ -1,0 +1,35 @@
+body{
+    /* text-align: center; */
+    background-color: #069122e5;
+    height: 100vh;
+}
+*{
+    margin: 0;
+}
+.score_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* position: absolute; */
+    
+   /* height: 3rem; */
+   margin-top: 8rem;
+}
+h1{
+    font-size: 6em;
+    color: white;
+}
+.score_container p{
+    font-size: 3rem;
+}
+.score_container input{
+    /* margin: 8px; */
+    padding: 1rem;
+    color: rgb(16, 15, 15);
+    background-color: rgb(252, 244, 252);
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+
+}

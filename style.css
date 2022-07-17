@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0%;
+}
+body{
+    background-color: #0eae0be5;
+}
+
+ul li {
+    list-style: none;
+    border: 1px solid black;
+    padding: 8px;
+    margin: 4px;
+    cursor: pointer;
+}
+.outerdiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: aliceblue;
+   
+}
+.innerdiv{
+   position: absolute;
+   top: 28%;
+   /* border: 1px solid black; */
+   padding: 1rem;
+   background-color: aliceblue;
+}
+.btn{
+    text-align: center;
+}
+.btn input{
+    padding: 8px 30px;
+    margin-top: 8px;
+    position: relative;
+    /* left: 78%; */
+    color: white;
+    background-color: rgb(11, 154, 44);
+    border: none;
+    text-transform: capitalize;
+    cursor: pointer;
+    width: 6rem;
+
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.header p{
+    font-size: larger;
+    margin: 8px;
+    font-weight: 600;
+}
+.question{
+    margin: 12px;
+}

@@ -119,7 +119,7 @@ const submit1=document.getElementById("submit")
 
 var value=0
 var score=0
-var question=1
+var question2=1
 
 
    
@@ -202,11 +202,11 @@ var question=1
     option2.innerText=quizDB[value].choice2
     option3.innerText=quizDB[value].choice3
     option4.innerText=quizDB[value].choice4
-    if(question<=quizDB.length){
-        question+=1
+    if(question2<=quizDB.length){
+        question2+=1
     }
     
-    question1.innerText=question
+    question1.innerText=question2
     
     
     
